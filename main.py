@@ -12,7 +12,9 @@ def remove_files(folder_path, file_ending):
             if name.endswith(file_ending):
                 # print(f"Found [{name}] in [{root}]")
                 del_path = os.path.join(root, name)
+                # print list of the files found
                 print(f"  >> erase {del_path}")
+                # remove the files
                 # os.remove(del_path)
 
 
